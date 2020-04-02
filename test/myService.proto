@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package test;
+
+message MyMessage {
+  message Req {}
+  message Resp {
+    //dummy response type..
+    string status = 1;
+  }
+}
